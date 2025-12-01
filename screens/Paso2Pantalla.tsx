@@ -31,7 +31,7 @@ export const Paso2Pantalla = ({ carro, alCambiar, alSiguiente, alAnterior }: Pas
       />
       <FormInput
         label="Nombre del dueño"
-        placeholder='Juan Pérez'
+        placeholder='Patito Juan'
         value={carro.nombreDelDueno}
         onChangeText={valor => alCambiar('nombreDelDueno', valor)}
       />
